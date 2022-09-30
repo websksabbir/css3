@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- <style>
+        .container{
+            width: 700PX;
+            height: 700PX;
+            border: 3PX double blue;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            /* border-radius: 75px; */
+            border: 1px dotted steelblue;
+            margin: 5px;
+            border-left: none;
+        }
+        p{
+            text-align: center;
+            margin-top:0;
+            color: rgb(70, 192, 97);
+            
+        }
+
+    </style> -->
+    <style>
+
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#main{
+    background-color:aquamarine;
+    height: 600px;
+}
+p{
+    width: 400px;
+    margin: 0 auto;
+     margin-top: 110px;
+
+    
+}
+        nav{
+            display: flex;
+            justify-content: space-between;
+            /* background-color: aqua; */
+        }
+       span{
+        margin-top: 9px;
+       }
+        nav li{
+            list-style: none;
+            margin-right: 40px  ;
+        }
+        nav>ul{
+            display: flex;
+            /* justify-content: center; */
+        }
+        nav li a{
+            text-decoration: none;
+            color: red;
+        }
+        .dropdown{
+            display:none;
+            position: absolute;
+        }
+        nav > ul > li:hover > ul{
+            display: block;
+            background: blue;
+            
+        }
+
+   
+
+
+
+        .dropdown2{
+            display: none;
+            position: absolute;
+        }
+        nav > ul > li > ul > li:hover > ul{
+            display: block;
+        }
+        .a{
+            color:white;
+        }
+         .a2{
+            color: chartreuse;
+         }
+    </style>
+</head>
+<body>
+     <!-- <div class="container">
+        <div class="box">
+          <p>  box1</p>
+        </div>
+        <div class="box">
+           <p>box2</p>
+        </div>
+        <div class="box">
+           <p>box3</p>
+        </div>
+     </div> -->
+     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, placeat. Minima veritatis doloribus id, voluptas delectus distinctio quod quisquam tempora doloremque, natus reprehenderit architecto unde atque corporis dolorum fugit quam minus consectetur debitis ipsam. Dolores repellat nostrum facere, expedita aliquam voluptatem quam saepe dolorum, ullam temporibus fugiat repellendus. Voluptatem,<span> quibusdam.</span></p>
+     <h2>amar sonar bangla </h2> -->
+
+
+
+
+
+
+     <header>
+        
+       <div id="main">
+        <nav>
+            <span> sabbir islam</span>
+            <ul>
+                <li><a href="">about</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">coustomer
+                    <ul class="dropdown">
+                        <li><a class="a" href="">dropdown1</a></li>
+                        <li><a class="a" href="">dropdown2</a></li>
+                        <li><a class="a" href="">dropdown3</a></li>
+                        <li><a class="a" href="">dropdown4 
+                            <ul class="dropdown2">
+                                <li><a class="a2" href="">dropdown1</a></li>
+                                <li><a class="a2" href="">dropdown2</a></li>
+                                <li><a class="a2" href="">dropdown3</a></li>
+                                <li><a class="a2" href="">dropdown4</a></li>
+                            </ul>
+                        </a></li>
+                    </ul>
+                </a></li>
+                <li><a href=""> country</a></li>
+            </ul>
+        </nav>
+
+        <div id="about">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In nesciunt non possimus officia, veniam vitae vel autem rem, nemo voluptas recusandae! Rerum voluptas explicabo, incidunt error eveniet reiciendis non consequuntur eius sunt voluptatibus! Ut fugiat molestiae ipsam vero omnis harum.
+            </p>
+        </div>
+       </div>
+     </header>
+      
+
+</body>
+</html>
